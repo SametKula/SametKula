@@ -1,8 +1,5 @@
 # Hi I'm Samet KULA
 
-+ hi im a web devoloper.
-+ I'm currently a student at Tarsus University.
-+ I'm currently in the development phase myself
 ```java
 
 public class About extends Me { 
@@ -13,6 +10,8 @@ public class About extends Me {
   private List<Languages> languages = List.of(Turkish, English);
   private List<CodeLanguages> codeLanguages = List.of(Javascript,TypeScript,C++,C#,Java,Pyton,html/css);
   private String Expertise = "Web Development";
+  private String StudentStatus = "I'm currently a student at Tarsus University.";
+  private String Phase = "I'm currently in the development phase myself";
   
 }
 
