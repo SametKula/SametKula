@@ -6,7 +6,7 @@ public class About extends Me {
   public String name = "Samet Kula";
   public String status = "Learning";
   public String[] languages = {"Turkish","English"};
-  private List<String> codeLanguages = Arrays.asList(new String[] {"Javascript","TypeScript","C++","C#","Java","html/css"});
+  private List<String> codeLanguages = Arrays.asList("Javascript","TypeScript","C++","C#","Java","html/css");
   public String expertise = "learning something";
   public String studentStatus = "I'm currently a student at Tarsus University.";
   private String phase = "I'm currently in the development phase of myself";
