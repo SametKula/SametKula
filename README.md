@@ -1,16 +1,14 @@
 
 ```java
 
-public class About extends Me { 
+public class SametKula {
 
-  public String name = "Samet Kula";
-  public String status = "Learning";
-  public String[] languages = {"Turkish","English"};
-  private List<String> codeLanguages = Arrays.asList("Javascript","TypeScript","C++","C#","Java","html/css");
-  public String expertise = "learning something";
-  public String studentStatus = "I'm currently a student at Tarsus University.";
-  private String phase = "I'm currently in the development phase of myself";
-  
+    private final String name = "Samet", surname = "KULA";
+    private final Status currentStatus = Status.LEARNING;
+    private List<String> codeLanguages = List.of("Java" ,"JavaScript" ,"C++" ,"C#" ,"HTML/CSS", "MySQL");
+    private List<String> languages = List.of("Turkish", "English");
+    private String expertise = "back-end / Spring";
+
 }
 
 
